@@ -1,8 +1,10 @@
 Mi primera API 
 Descripción
 Este proyecto consiste en una API RESTful básica desarrollada con Node.js y Express.js para gestionar tareas mediante operaciones CRUD (Crear, Leer, Actualizar y Eliminar) [file:1]. Los datos se almacenan en un archivo externo data.js, utilizando un arreglo de objetos, sin base de datos, tal como exige la evaluación [file:1].
+
 Objetivo
 El objetivo es comprender cómo se estructura un servidor con Express, cómo manejar rutas y métodos HTTP, y cómo enviar y recibir datos en formato JSON [file:1]. También se busca aplicar validaciones básicas, manejo de errores y organización del proyecto en archivos separados [file:1].
+
 Estructura del proyecto
 mi-primera-api-express/
 ├── index.js
@@ -195,11 +197,13 @@ Flujo de la aplicación
 3.	routes.js contiene la lógica de las operaciones CRUD.
 4.	data.js almacena el arreglo de tareas en memoria [file:1].
 5.	La API responde con JSON y utiliza códigos HTTP adecuados según el resultado de cada operación [file:1].
+
 Decisiones de diseño
 •	Se utilizó Express.js porque es el framework solicitado por la evaluación [file:1].
 •	Se separó el proyecto en archivos para cumplir con la estructura mínima requerida [file:1].
 •	Se trabajó con un archivo externo data.js en lugar de base de datos, tal como se solicita [file:1].
 •	Se usaron títulos y descripciones de tareas más naturales para dar mayor autenticidad al proyecto.
 •	Se implementaron validaciones y manejo de errores para cumplir con la rúbrica [file:1].
+
 Conclusión
 La API desarrollada cumple con los requisitos de la evaluación: uso de Express.js, estructura organizada, almacenamiento en archivo externo, operaciones CRUD, validaciones básicas, respuestas JSON y documentación de pruebas [file:1]. Además, se incorporaron pantallazos reales de funcionamiento en el README.md
