@@ -152,32 +152,4 @@ A continuación se muestran las pruebas realizadas con Postman para verificar el
 **Captura:**
 ![DELETE /tasks/1](img/delete-tasks)
 
-### 5. GET final /tasks
 
-**Descripción:** Verificación final para comprobar que los cambios quedaron aplicados.
-
-<<<<<<< HEAD
-**Petición en Postman:**
-- Método: `GET`
-- URL: `http://localhost:3000/tasks`
-
-**Captura:**
-![GET final /tasks](img/get-final.jpg)
-=======
-Flujo de la aplicación
-1.	index.js inicializa el servidor Express.
-2.	express.json() permite recibir y procesar datos JSON.
-3.	routes.js contiene la lógica de las operaciones CRUD.
-4.	data.js almacena el arreglo de tareas en memoria [file:1].
-5.	La API responde con JSON y utiliza códigos HTTP adecuados según el resultado de cada operación [file:1].
-
-Decisiones de diseño
-•	Se utilizó Express.js porque es el framework solicitado por la evaluación [file:1].
-•	Se separó el proyecto en archivos para cumplir con la estructura mínima requerida [file:1].
-•	Se trabajó con un archivo externo data.js en lugar de base de datos, tal como se solicita [file:1].
-•	Se usaron títulos y descripciones de tareas más naturales para dar mayor autenticidad al proyecto.
-•	Se implementaron validaciones y manejo de errores para cumplir con la rúbrica [file:1].
-
-Conclusión
-La API desarrollada cumple con los requisitos de la evaluación: uso de Express.js, estructura organizada, almacenamiento en archivo externo, operaciones CRUD, validaciones básicas, respuestas JSON y documentación de pruebas [file:1]. Además, se incorporaron pantallazos reales de funcionamiento en el README.md
->>>>>>> edaeeeeaf146fe2eed58a35f2337e3fa74745133
