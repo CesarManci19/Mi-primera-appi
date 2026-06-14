@@ -1,0 +1,12 @@
+{
+  "name": "mi-primera-api-express",
+  "version": "1.0.0",
+  "description": "API RESTful básica con Express.js para gestionar tareas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
