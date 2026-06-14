@@ -119,7 +119,7 @@ A continuación se muestran las pruebas realizadas con Postman para verificar el
 ```
 
 **Captura:**
-![POST /tasks](img/post-tasks.jpg)
+![POST /tasks](img/post-tasks)
 
 ### 3. PUT /tasks/:id
 
@@ -139,7 +139,7 @@ A continuación se muestran las pruebas realizadas con Postman para verificar el
 ```
 
 **Captura:**
-![PUT /tasks/1](img/put-tasks.jpg)
+![PUT /tasks/1](img/put-tasks)
 
 ### 4. DELETE /tasks/:id
 
@@ -150,7 +150,7 @@ A continuación se muestran las pruebas realizadas con Postman para verificar el
 - URL: `http://localhost:3000/tasks/1`
 
 **Captura:**
-![DELETE /tasks/1](img/delete-tasks.jpg)
+![DELETE /tasks/1](img/delete-tasks)
 
 ### 5. GET final /tasks
 
