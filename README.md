@@ -152,3 +152,23 @@ A continuación se muestran las pruebas realizadas con Postman para verificar el
 
 **Captura:**
 ![DELETE /tasks/1](img/delete-task.jpg)
+
+## Flujo de la aplicación
+
+La aplicación funciona de forma sencilla y secuencial. Primero, el servidor Express se inicia desde `index.js` y carga las rutas definidas en `routes.js`. Luego, las tareas se almacenan y manipulan desde el archivo `data.js` sin necesidad de base de datos [file:1].
+
+El flujo de uso es el siguiente:
+
+1. El usuario realiza una petición GET para listar todas las tareas.
+2. Si desea agregar una nueva tarea, envía una petición POST con los datos requeridos.
+3. Para modificar una tarea existente, usa PUT con el `id` correspondiente.
+4. Para eliminar una tarea, usa DELETE con el `id` correspondiente.
+5. Finalmente, puede volver a hacer un GET para verificar los cambios realizados [file:1].
+
+Las pruebas se documentan con capturas de Postman en el README para mostrar el funcionamiento real de cada endpoint [file:1].
+
+## Conclusión
+
+Este proyecto permitió aplicar los conceptos básicos de desarrollo backend con Node.js y Express, trabajando con rutas, métodos HTTP, respuestas en formato JSON y validaciones simples. También ayudó a comprender cómo documentar una API de forma clara en un README y cómo probarla con Postman [file:1][web:163].
+
+En conjunto, la práctica demuestra el ciclo completo de una API CRUD básica: crear, leer, actualizar y eliminar datos de forma ordenada y entendible. Además, deja una base lista para futuras mejoras, como agregar persistencia con base de datos o validaciones más completas [web:164][web:166].
