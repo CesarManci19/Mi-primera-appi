@@ -1,4 +1,4 @@
-# Mi primera API 
+# Mi primera API con Express.js
 
 API RESTful básica desarrollada con Node.js y Express para gestionar tareas mediante operaciones CRUD.  
 El proyecto almacena los datos en un archivo JavaScript externo y permite probar los endpoints con Postman.
@@ -29,6 +29,7 @@ La aplicación fue creada como parte de una evaluación de programación backend
 ├── index.js
 ├── routes.js
 ├── package.json
+├── package-lock.json
 └── README.md
 ```
 
@@ -88,7 +89,7 @@ Elimina una tarea existente usando su `id`.
 
 ## Pruebas con Postman
 
-A continuación se muestran las pruebas realizadas con Postman para verificar el funcionamiento de la API RESTful. Cada endpoint responde con JSON y permite ejecutar las operaciones CRUD solicitadas en la evaluación [file:1][web:96].
+A continuación se muestran las pruebas realizadas con Postman para verificar el funcionamiento de la API RESTful. Cada endpoint responde con JSON y permite ejecutar las operaciones CRUD solicitadas en la evaluación [file:1].
 
 ### 1. GET /tasks
 
@@ -119,7 +120,7 @@ A continuación se muestran las pruebas realizadas con Postman para verificar el
 ```
 
 **Captura:**
-![POST /tasks](img/post-tasks)
+![POST /tasks](img/post-task.jpg)
 
 ### 3. PUT /tasks/:id
 
@@ -139,7 +140,7 @@ A continuación se muestran las pruebas realizadas con Postman para verificar el
 ```
 
 **Captura:**
-![PUT /tasks/1](img/put-tasks)
+![PUT /tasks/1](img/put-task.jpg)
 
 ### 4. DELETE /tasks/:id
 
@@ -150,6 +151,4 @@ A continuación se muestran las pruebas realizadas con Postman para verificar el
 - URL: `http://localhost:3000/tasks/1`
 
 **Captura:**
-![DELETE /tasks/1](img/delete-tasks)
-
-
+![DELETE /tasks/1](img/delete-task.jpg)
